@@ -1,6 +1,15 @@
 <html>
+  <head>
+    <title>Color Filter</title>
+    <style>
+      body { width: 200px; padding: 10px; }
+    </style>
+  </head>
   <body>
-    <h1>Filter</h1>
+    <h3>Color Filter</h3>
+    <label for="hue">Hue (0-360):</label>
+    <input type="number" id="hue" name="hue" min="0" max="360" value="0">
+    <button id="apply">Apply Filter</button>
     <script src="popup.js"></script>
   </body>
 </html>
