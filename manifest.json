@@ -8,7 +8,6 @@
     "service_worker": "background.js"
     },
     "action": {
-      "default_popup": "ext.html",
       "default_icon": "icon_nobkg.png"
     },
     "content_scripts": [
